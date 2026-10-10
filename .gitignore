@@ -1,0 +1,31 @@
+# Build output
+/auto-nosleep
+*.o
+*.dSYM/
+.build/
+DerivedData/
+xcuserdata/
+.swiftpm/
+
+# Secrets and credentials: never commit these
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.cer
+*.mobileprovision
+*.provisionprofile
+*.keychain-db
+
+# Logs and local config
+*.log
+*.local
+
+# OS and editor files
+.DS_Store
+.AppleDouble
+.vscode/
+.idea/
+*.swp
+*~

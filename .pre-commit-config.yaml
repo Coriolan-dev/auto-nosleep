@@ -1,0 +1,13 @@
+repos:
+  - repo: local
+    hooks:
+      - id: shellcheck
+        name: shellcheck
+        entry: shellcheck
+        language: system
+        files: ^(install|uninstall)\.sh$
+      - id: shfmt
+        name: shfmt
+        entry: shfmt -i 4 -d
+        language: system
+        files: ^(install|uninstall)\.sh$
